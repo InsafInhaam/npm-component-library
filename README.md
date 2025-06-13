@@ -1,5 +1,3 @@
-# @insafinhaam732/component-library
-
 A modern, reusable React component library built with **TypeScript** and **Rollup**.
 
 ## 📦 Installation
