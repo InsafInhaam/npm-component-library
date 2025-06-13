@@ -1,0 +1,48 @@
+.textareaWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.required {
+  color: #ef4444;
+}
+
+.textarea {
+  resize: vertical;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 15px;
+  line-height: 1.5;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  color: #111827;
+  outline: none;
+  transition: border-color 0.2s;
+
+  &:focus {
+    border-color: #4f46e5;
+  }
+
+  &:disabled {
+    background-color: #f9fafb;
+    cursor: not-allowed;
+    color: #9ca3af;
+  }
+}
+
+.errorBorder {
+  border-color: #ef4444 !important;
+}
+
+.errorText {
+  font-size: 12px;
+  color: #ef4444;
+}
