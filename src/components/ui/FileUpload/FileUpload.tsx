@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useRef } from "react";
 import styles from "./FileUpload.module.scss";
 import { cn } from "../../../utils/cn";

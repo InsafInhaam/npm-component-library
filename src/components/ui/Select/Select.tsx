@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import styles from "./Select.module.scss";
 import { cn } from "../../../utils/cn";

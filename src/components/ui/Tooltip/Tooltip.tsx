@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useState } from "react";
 import styles from "./Tooltip.module.scss";
 import { cn } from "../../../utils/cn";
@@ -10,7 +8,11 @@ type TooltipProps = {
   className?: string;
 };
 
-export const Tooltip: React.FC<TooltipProps> = ({ text, children, className }) => {
+export const Tooltip: React.FC<TooltipProps> = ({
+  text,
+  children,
+  className,
+}) => {
   const [visible, setVisible] = useState(false);
 
   return (
