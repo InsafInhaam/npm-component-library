@@ -24,7 +24,8 @@
   ],
   "author": "Insaf Inhaam",
   "license": "MIT",
-  "description": "",
+  "description": "A reusable React component library by Insaf Inhaam",
+  "homepage": "https://react-component-kit-docs.vercel.app/",
   "dependencies": {
     "classnames": "^2.5.1",
     "clsx": "^2.1.1",
