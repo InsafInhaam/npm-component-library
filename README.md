@@ -5,7 +5,7 @@ A modern, reusable React component library built with **TypeScript** and **Rollu
 Install the package via NPM:
 
 ```bash
-npm install @insafinhaam732/component-library
+npm install @insafinhaam732/react-component-kit
 ```
 
 ## 🚀 Usage
@@ -13,7 +13,7 @@ npm install @insafinhaam732/component-library
 ### 🖱️ Button
 
 ```tsx
-import { Button } from "@insafinhaam732/component-library";
+import { Button } from "@insafinhaam732/react-component-kit";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
 ### 🧭 Breadcrumb
 
 ```tsx
-import { Breadcrumb } from "@insafinhaam732/component-library";
+import { Breadcrumb } from "@insafinhaam732/react-component-kit";
 
 function App() {
   return (
@@ -52,7 +52,7 @@ function App() {
 ### 📄 Pagination
 
 ```tsx
-import { Pagination } from "@insafinhaam732/component-library";
+import { Pagination } from "@insafinhaam732/react-component-kit";
 import { useState } from "react";
 
 function App() {
@@ -78,7 +78,7 @@ import {
   Checkbox,
   RadioGroup,
   ToggleSwitch,
-} from "@insafinhaam732/component-library";
+} from "@insafinhaam732/react-component-kit";
 ```
 
 #### 🔤 Input
