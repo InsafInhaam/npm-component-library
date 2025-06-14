@@ -27,8 +27,8 @@ export const RadioGroup: React.FC<RadioGroupProps> = ({
   return (
     <div className={cn(styles.radioGroup, className)}>
       {label && <p className={styles.groupLabel}>{label}</p>}
-      {options.map((option) => (
-        <label>
+      {options.map((option, index) => (
+        <label className={styles.radioLabel} key={index}>
           <input
             type="radio"
             name={name}
