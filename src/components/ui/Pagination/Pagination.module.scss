@@ -24,7 +24,7 @@
     outline-offset: 2px;
   }
 
-  .dark & {
+  @media (prefers-color-scheme: dark) {
     background-color: #1f2937;
     color: #f3f4f6;
     border-color: #4b5563;
@@ -40,7 +40,7 @@
   color: white;
   font-weight: bold;
 
-  .dark & {
+  @media (prefers-color-scheme: dark) {
     background-color: #3b82f6;
     color: #fff;
   }
@@ -63,7 +63,7 @@
     background-color: #d1d5db;
   }
 
-  .dark & {
+  @media (prefers-color-scheme: dark) {
     background-color: #374151;
     color: #f3f4f6;
 
