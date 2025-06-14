@@ -1,4 +1,13 @@
+# @insafinhaam732/component-library
+
 A modern, reusable React component library built with **TypeScript** and **Rollup**.
+
+## 🌐 Live Demo & Documentation
+
+👉 **Explore the components live at:**  
+[https://react-component-kit-docs.vercel.app](https://react-component-kit-docs.vercel.app)
+
+This site includes previews of each component with a dark/light toggle, code samples, and props reference.
 
 ## 📦 Installation
 
