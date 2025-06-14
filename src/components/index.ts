@@ -9,3 +9,6 @@ export * from "./ui/RadioGroup/RadioGroup";
 export * from "./ui/ToggleSwitch/ToggleSwitch";
 export * from "./ui/FileUpload/FileUpload";
 export * from "./ui/DatePicker/DatePicker";
+export * from "./ui/Modal/Modal";
+export * from "./ui/Tooltip/Tooltip";
+export * from "./ui/Tabs/Tabs";
