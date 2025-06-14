@@ -18,12 +18,32 @@
   &:hover {
     background-color: #f3f4f6;
   }
+
+  &:focus {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+  }
+
+  .dark & {
+    background-color: #1f2937;
+    color: #f3f4f6;
+    border-color: #4b5563;
+
+    &:hover {
+      background-color: #374151;
+    }
+  }
 }
 
 .active {
   background-color: #1e40af;
   color: white;
   font-weight: bold;
+
+  .dark & {
+    background-color: #3b82f6;
+    color: #fff;
+  }
 }
 
 .navButton {
@@ -32,6 +52,7 @@
   border: none;
   border-radius: 0.375rem;
   cursor: pointer;
+  transition: background-color 0.2s ease;
 
   &:disabled {
     opacity: 0.5;
@@ -40,5 +61,14 @@
 
   &:hover:enabled {
     background-color: #d1d5db;
+  }
+
+  .dark & {
+    background-color: #374151;
+    color: #f3f4f6;
+
+    &:hover:enabled {
+      background-color: #4b5563;
+    }
   }
 }

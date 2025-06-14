@@ -19,7 +19,7 @@ type SelectProps = {
   className?: string;
 };
 
-export const Select = ({
+export const Select: React.FC<SelectProps> = ({
   label,
   options,
   value,
