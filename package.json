@@ -1,6 +1,6 @@
 {
   "name": "@insafinhaam732/react-component-kit",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
